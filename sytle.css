@@ -1,0 +1,301 @@
+*{
+    margin: 0%;
+    padding:0%;
+   
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image:url(23.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1200px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+nav{
+    
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    
+   
+}
+.main-nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 150px;
+    
+}
+.main-nav li{
+    position: relative;
+    padding: 10px 20px;
+    display: flex;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 40%;
+    cursor: pointer;
+}
+.main-nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+}
+.sub-nav  {
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    color:white;
+    width: 150px;
+    padding: 30px 0;
+}
+
+
+
+.main-nav  :hover .sub-nav  {
+    display: block;
+    
+}
+.sub-nav :hover{
+    cursor: pointer;
+    color: red;
+    
+    
+    
+}
+
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 90px;
+    color: white;
+    background: scroll;
+    padding-left: 60px;   
+}
+#starting{
+    margin-top: 600px;  
+    border: solid black;
+    
+    
+}
+.photo{
+    width: 1350px;
+}
+.start{
+    font-size: 100px;
+    text-align: center;
+    justify-content: center;
+    margin: 0%;
+    color: black;
+    padding-left: 60px;
+    display: flex;
+    background-color: aqua;
+    
+}
+
+.photo{
+    width: 1340px;
+    border: 2px solid black;
+}
+
+h2{
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    font-style:initial;
+    background-color: black;
+    color: wheat;
+    margin: 0%;
+    
+}
+h5{
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    
+    display: inline;
+    
+    margin-left: 500px;
+    margin-top: 60px;
+}
+.part{
+    margin-left: 450px;
+    margin-top: 20px;
+}
+.box-1{
+    border-color: black;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    margin-left: 500px;
+    cursor: pointer;
+    
+}
+#planning{
+    background-color: gray;
+}
+.head-1{
+    margin: 0%;
+    text-decoration: underline;
+}
+.para{
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+.box-2{
+    border-color: black;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    margin-left: 500px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+.para-1:hover{
+    color: skyblue;
+}
+#design{
+    background-color: aqua;
+    border: 2px solid black;
+}
+.head-2{
+    color: black;
+    text-decoration: underline;
+    margin: 0%;
+    margin-bottom: 50px;
+}
+.section-1{
+    border-color: black;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    margin-left:  500px;
+    cursor: pointer;
+    
+}
+.para-2:hover{
+    color: rebeccapurple;
+}
+.section-2{
+    border-color: black;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    margin-left:  500px;
+    cursor: pointer;
+    
+}
+.para-2:hover{
+    color: rebeccapurple;}
+    .h1{
+        color: purple;
+        background-color: pink;
+        margin: 0%;
+    }
+.side-1{
+    border: 2px solid black;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    margin-top: 20px;
+    
+    
+}
+h3{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+h6{
+     text-align: start;
+     font-size: 20px;
+     text-decoration: underline;
+}
+ol{
+    margin-left: 60px;
+    justify-content: space-between;
+    text-align: start;
+    margin-bottom: 20px;
+}
+li{
+    padding-top: 20px;
+    
+}
+#foot{
+    background-color:brown;
+    height: 250px;
+    padding: 100px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer h2 {
+    margin-top: 20px;
+    background-color: brown;
+    color: black;
+}  
+footer a {
+    margin-top: 10px;
+}
+.like{
+    font-size: 40px;
+    margin-top: 30px;
+    color: black;
+    margin-right: 20px;
+}
+.final{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.Follow{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: pink;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 30px;
+    text-decoration: none;
+}
+.wrapper a:hover{
+    color: skyblue;
+    transform: scale(1.20);
+   
+}
+
+.by{
+    font-size: 35px;
+}
+
+
